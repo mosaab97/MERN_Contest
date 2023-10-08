@@ -1,6 +1,17 @@
 ## MERN (MongoDB, Express.js, React.js,  Node.js)
 
 simple web app use MERN stack, docker, EJS, webback, TypeScript, Server Side Rendering
+
+to run the application localy
+
+```
+  - clone repo.
+  - make sure node, mongo and docker is installed
+  - npm install
+  - run docker-compose up to establish the connection with the DB if not already exist
+  - run npx tsnd .\src\dev\load-test-data.ts to get the test data to the DB
+  - npm run dev:server to run the app (will start at 172.0.1:3000) as default
+```
 #### package.json scripts
 
 ```
